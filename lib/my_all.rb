@@ -8,9 +8,9 @@ def my_all?(collection)
     yield(collection[i])
     i += 1
   end 
-  if bloeck_return_values.include?(false)
+  if block_return_values.include?(false)
       false
     else
       true
-    end 
+  end 
 end 
